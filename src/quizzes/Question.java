@@ -10,4 +10,12 @@ public class Question {
         text = "";
         answer = "";
     }
+    
+    public void setText(String t){
+        text = t;
+    }
+    
+    public void setAnswer(String a){
+        answer = a;
+    }
 }
