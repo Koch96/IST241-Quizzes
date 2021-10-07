@@ -20,17 +20,17 @@ public class Quizzes {
 //        String response = in.nextLine();
 //        System.out.println(q.checkAnswer(response));
         
-        ChoiceQuestion q2 = new ChoiceQuestion();
-        q2.setText("What country was inventor born in? ");
-        q2.addChoice("Australia", false);
-        q2.addChoice("Canada", true);
-        q2.addChoice("France", false);
-        q2.addChoice("United States", false);
-        
-        q2.display();
-        System.out.print("Your answer: ");
-        String response = in.nextLine();
-        System.out.println(q2.checkAnswer(response));
+//        ChoiceQuestion q2 = new ChoiceQuestion();
+//        q2.setText("What country was inventor born in? ");
+//        q2.addChoice("Australia", false);
+//        q2.addChoice("Canada", true);
+//        q2.addChoice("France", false);
+//        q2.addChoice("United States", false);
+//        
+//        q2.display();
+//        System.out.print("Your answer: ");
+//        String response = in.nextLine();
+//        System.out.println(q2.checkAnswer(response));
     }
 
 }
