@@ -20,5 +20,9 @@ public class ChoiceQuestion extends Question{
     
     public void display() {
         super.display();
+        for (int i = 0; i < choices.size(); i++) {
+            int choiceNumber = i++;
+            System.out.println(choiceNumber + ": " + choices.get(i));
+        }
     }
 }
