@@ -1,14 +1,12 @@
 package quizzes;
 
 /** @author sak5680 */
-
-// A question with a text and an answer.
-public class Question {
+public class NumericQuestion {
     protected String text;
     protected String answer;
     
     // Constructs a questino with empty question and answer.
-    public Question(){
+    public NumericQuestion(){
         text = "";
         answer = "";
     }
@@ -26,8 +24,10 @@ public class Question {
     // Checks a given response for correctness.
     // @param response the reponse to check
     // @return true if the response was correct, false otherwise
-    public boolean checkAnswer(String response) {
-        return response.equals(answer);
+    public boolean checkAnswer(double response) {
+        double answer2 = Double.parseDouble(answer);
+        
+        return (response == answer2);
     }
     
     // Displays this question.
