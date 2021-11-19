@@ -26,8 +26,7 @@ public class NumericQuestion {
     // @return true if the response was correct, false otherwise
     public boolean checkAnswer(double response) {
         double answer2 = Double.parseDouble(answer);
-        
-        return (response == answer2);
+        return response == answer2;
     }
     
     // Displays this question.

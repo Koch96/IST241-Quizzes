@@ -22,8 +22,8 @@ public class Quizzes {
                 
         q2.display();
         System.out.print("Your answer: ");
-        String response = sc.nextLine();
-        System.out.println(q.checkAnswer(response));
+        double response = sc.nextDouble();
+        System.out.println(q2.checkAnswer(response));
     }
 
 }
