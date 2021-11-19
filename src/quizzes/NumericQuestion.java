@@ -1,6 +1,7 @@
 package quizzes;
 
 /** @author sak5680 */
+
 public class NumericQuestion {
     protected String text;
     protected String answer;

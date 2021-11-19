@@ -1,10 +1,8 @@
-
 package quizzes;
 
 import java.util.Scanner;
 
-
-//@author sak5680
+/** @author sak5680 */
 
 // This program shows a simple quiz with one question.
 public class Quizzes {
